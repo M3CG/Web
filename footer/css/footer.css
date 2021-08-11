@@ -1,0 +1,63 @@
+*{
+    text-decoration: none;
+}
+body{
+    background-color: red;
+}
+footer{
+    width: 100%;
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 32px 32px 0 0;
+
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.columna{
+    max-width: 32%;
+    background-color: rgba(255,255,255,0.3);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.3);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 0 20px;
+
+}
+.redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(100,100,100,0.4);
+    margin: 10px;
+    border-radius: 16px;
+}
+.redes img{
+    height: 32px;
+}
+
+.redes p{
+    margin: 16px;
+}
+
+.fila img{
+    height: 32px;
+}
+
+.fila{
+    display: flex;
+}
+
+.fila p{
+    margin: 16px;
+}
+
+footer .pie{
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+}
+footer .pie img{
+    width: 16px;
+}
