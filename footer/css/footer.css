@@ -4,6 +4,51 @@
 body{
     background-color: red;
 }
+section img{
+    height: 360px;
+    margin: 20px;
+    border-radius: 20px;
+}
+section iframe{
+    height: 400px;
+    width: 720px;
+    margin: 20px;
+    border-radius: 30px;
+}
+
+section .foto-video{
+    display: flex;
+    align-items: center;
+}
+
+section{
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px 40px;
+    margin: 20px;
+    border-radius: 32px;
+    max-width: 70%;
+}
+
+section .foto{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url('/Descripciones/fotos/hunter-x-hunter-2011-5b06b0fe6b483.jpg');
+    background-position: center;
+    margin: 20px 0;
+    border-radius: 32px;
+}
+
+section p{
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+section h3{
+    margin: 0 20px;
+    color: white;
+    font-size: 40px;
+}
+
+
 footer{
     width: 100%;
     background-color: rgba(255,255,255,0.3);
@@ -25,7 +70,7 @@ footer{
     padding: 0 20px;
 
 }
-.redes{
+footer .redes{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,23 +78,23 @@ footer{
     margin: 10px;
     border-radius: 16px;
 }
-.redes img{
+footer .redes img{
     height: 32px;
 }
 
-.redes p{
+footer .redes p{
     margin: 16px;
 }
 
-.fila img{
+footer .fila img{
     height: 32px;
 }
 
-.fila{
+ footer .fila{
     display: flex;
 }
 
-.fila p{
+footer .fila p{
     margin: 16px;
 }
 
@@ -60,4 +105,14 @@ footer .pie{
 }
 footer .pie img{
     width: 16px;
+}
+
+header{
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 10px;
+    padding: 0 20px;
+    border-radius: 30px;
+    box-shadow: rgba(31, 38, 135, 0.3);
+    color: white;
+    font-size: 32px;
 }
